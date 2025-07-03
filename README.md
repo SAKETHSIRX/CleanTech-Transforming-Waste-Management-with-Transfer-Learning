@@ -1,4 +1,4 @@
-# CleanTech: Transforming Waste Management with Transfer Learning
+# CleanTech: Transforming Waste Management with Transfer Learning 
 
 A deep learning-based web application that classifies waste images into **Biodegradable**, **Recyclable**, or **Trash** using a fine-tuned VGG16 model. Built as part of the **SmartInternz CleanTech project**, this system promotes sustainable waste segregation through intelligent automation.
 
@@ -69,3 +69,7 @@ Then open your browser at http://127.0.0.1:5000/
     Deploy on cloud/edge devices
 
     Add mobile support
+
+---
+
+Let me know if you want me to plug in your actual name, college, or demo video link—and I’ll finalize it for you! Want to add a flowchart or screenshot section too? I can help with that.
