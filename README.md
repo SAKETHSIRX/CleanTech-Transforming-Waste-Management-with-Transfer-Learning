@@ -3,7 +3,7 @@
 A deep learning-based web application that classifies waste images into **Biodegradable**, **Recyclable**, or **Trash** using a fine-tuned VGG16 model. Built as part of the **SmartInternz CleanTech project**, this system promotes sustainable waste segregation through intelligent automation.
 
 📁 **Documents & Reports**  
-All supporting documents and reports are available in this [Google Drive folder](https://your-drive-link-here).
+All supporting documents and reports are available in this [Google Drive folder]( https://drive.google.com/drive/folders/1JfonX_Je-t_vbol5EgPFm5f7WmNlNgXG).
 
 ---
 
