@@ -1,56 +1,51 @@
-CleanTech: Transforming Waste Management with Transfer Learning
-Documents (Reports) :All the documents and Reports related to this project are present in this drive link (due to large size) - https://drive.google.com/drive/folders/1JfonX_Je-t_vbol5EgPFm5f7WmNlNgXG
+# CleanTech: Transforming Waste Management with Transfer Learning
 
-CleanTech is a deep learning-based web application designed to automate waste classification using transfer learning. It classifies images into three categories: Biodegradable, Recyclable, and Trash, supporting better waste segregation and sustainable waste management.
+A deep learning-based web application that classifies waste images into **Biodegradable**, **Recyclable**, or **Trash** using a fine-tuned VGG16 model. Built as part of the **SmartInternz CleanTech project**, this system promotes sustainable waste segregation through intelligent automation.
 
-🧠 Project Overview
-🔍 Goal: Classify waste images in real-time to assist in efficient urban waste handling.
-🧰 Model: Pre-trained VGG16 model fine-tuned with custom classification layers.
-🌐 Web Interface: Built using Flask with a simple HTML frontend.
-📁 Project Structure
-w_flask/ ├── app.py # Flask backend script ├── vgg16.keras # Saved model (fine-tuned VGG16) ├── templates/ │ ├── index.html # File upload form │ └── result.html # Display prediction ├── static/uploads/ # Uploaded images storage ├── train_model.ipynb # Jupyter Notebook for training the model
+📁 **Documents & Reports**  
+All supporting documents and reports are available in this [Google Drive folder](https://your-drive-link-here).
 
-⚙️ Setup Instructions
-Prerequisites
-Python 3.x
-pip or conda for managing packages
-Install Dependencies
-pip install tensorflow flask numpy matplotlib
+---
 
-Run the Application
+## 🧠 Project Overview
 
+- **Goal**: Automate real-time waste classification to support efficient urban waste handling.
+- **Model**: Pre-trained **VGG16** with custom classification layers.
+- **Interface**: Flask-based web app with a simple HTML frontend.
+
+---
+
+## 📂 Project Structure
+
+w_flask/ ├── app.py # Flask backend ├── vgg16_model.keras # Trained model ├── templates/ │ ├── index.html # Upload form │ └── result.html # Prediction display ├── static/ │ └── uploads/ # Uploaded images └── train_model.ipynb # Model training notebook
+
+
+---
+
+## ⚙️ Setup Instructions
+
+### ✅ Prerequisites
+- Python 3.x
+- pip or conda
+
+### 📦 Install Dependencies
+```bash
+pip install flask tensorflow pillow
 cd w_flask
-python3 app.py
+python app.py
 
 Then open your browser at http://127.0.0.1:5000/
-🧪 Model Summary
 
-    Base model: VGG16 (imagenet weights, without top)
+🎥 Demo Video
+Watch the working demo here
 
-    Added Layers: Flatten → Dropout → Dense (softmax)
+🙋‍♂️ Developed By
+Your Name SmartInternz Virtual Internship Program July 2025
 
-    Accuracy:
+📜 License
+This project is for educational purposes under the SmartInternz program.
 
-        Training: 92.3%
 
-        Validation: 90.6%
+---
 
-        Fine-tuned: 91.2%
-
-📸 Sample Predictions
-
-    Plastic Bottle → Recyclable
-
-    Banana Peel → Biodegradable
-
-    Styrofoam Cup → Trash
-
-📈 Future Enhancements
-
-    Add more waste categories (metal, glass, e-waste)
-
-    Integrate smart bin sensors
-
-    Deploy on cloud/edge devices
-
-    Add mobile support
+Let me know if you want me to plug in your actual name, college, or demo video link—and I’ll finalize it for you! Want to add a flowchart or screenshot section too? I can help with that.
