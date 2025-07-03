@@ -30,22 +30,42 @@ w_flask/ ├── app.py # Flask backend ├── vgg16_model.keras # Trained 
 
 ### 📦 Install Dependencies
 ```bash
-pip install flask tensorflow pillow
+pip install tensorflow flask numpy matplotlib
+
+Run the Application
+
 cd w_flask
-python app.py
+python3 app.py
 
 Then open your browser at http://127.0.0.1:5000/
+🧪 Model Summary
 
-🎥 Demo Video
-Watch the working demo here
+    Base model: VGG16 (imagenet weights, without top)
 
-🙋‍♂️ Developed By
-Your Name SmartInternz Virtual Internship Program July 2025
+    Added Layers: Flatten → Dropout → Dense (softmax)
 
-📜 License
-This project is for educational purposes under the SmartInternz program.
+    Accuracy:
 
+        Training: 92.3%
 
----
+        Validation: 90.6%
 
-Let me know if you want me to plug in your actual name, college, or demo video link—and I’ll finalize it for you! Want to add a flowchart or screenshot section too? I can help with that.
+        Fine-tuned: 91.2%
+
+📸 Sample Predictions
+
+    Plastic Bottle → Recyclable
+
+    Banana Peel → Biodegradable
+
+    Styrofoam Cup → Trash
+
+📈 Future Enhancements
+
+    Add more waste categories (metal, glass, e-waste)
+
+    Integrate smart bin sensors
+
+    Deploy on cloud/edge devices
+
+    Add mobile support
