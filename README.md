@@ -70,6 +70,4 @@ Then open your browser at http://127.0.0.1:5000/
 
     Add mobile support
 
----
 
-Let me know if you want me to plug in your actual name, college, or demo video link—and I’ll finalize it for you! Want to add a flowchart or screenshot section too? I can help with that.
